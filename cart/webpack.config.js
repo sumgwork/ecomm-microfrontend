@@ -13,6 +13,7 @@ module.exports = {
       exposes: {
         "./CartIndex": "./src/index",
       },
+      shared: ["faker"],
     }),
     // to import scripts into html automatically
     new HtmlWebpackPlugin({
